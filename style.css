@@ -1,8 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .first{
-    /* display: none;
-    it will show like there is no any text  */
-   
-    visibility: hidden ;
-    /* it will show just empty space on there place.  */
+    width: 50vw;
+    height: 20vh;
+    background-color: rgb(145, 98, 221);
+    font-style: oblique;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.second{
+    width: 50vw;
+    height: 20vh;
+    background-color: rgb(26, 89, 15);
+    font-style: oblique;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
+@media screen and (min-width: 600px) {
+    .container{
+        flex-direction: row;
+    }
+    .first{
+        background: orange;
+    }
+    
+}
+
+@media print{
+    body{
+        font: 12pt;
+    }
+    .first{
+        padding: 0.5cm;
+    }
+}
