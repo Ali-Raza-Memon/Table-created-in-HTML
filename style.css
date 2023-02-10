@@ -1,46 +1,9 @@
-.container{
-    display: flex;
-    flex-direction: column;
-}
-.first{
-    width: 50vw;
-    height: 20vh;
-    background-color: rgb(145, 98, 221);
-    font-style: oblique;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    
-}
-.second{
-    width: 50vw;
-    height: 20vh;
-    background-color: rgb(26, 89, 15);
-    font-style: oblique;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-@media screen and (min-width: 600px) {
-    .container{
-        flex-direction: row;
-    }
-    .first{
-        background: orange;
-    }
-    
-}
-
-@media print{
-    body{
-        font: 12pt;
-    }
-    .first{
-        padding: 0.5cm;
-    }
+p{
+    /*
+    font-family: monospace;
+    font-family: sans-serif; */
+    font-family: serif; 
+    font-weight: normal;
+    font-size: 1rem;
+    color: #000;
 }
